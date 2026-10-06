@@ -4,3 +4,5 @@ def fib(n: int) -> int:
   if 2 <= n <= 3:
     return 1
   return fib(n - 1) + fib(n - 2)
+
+fib(40)
